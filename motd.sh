@@ -17,12 +17,12 @@ BANNER=$(figlet -f bloody "Arli" | lolcat -a -s 50 -d 1)
 
 # Добавляем цвет и рамку
 echo -e "${RED}$FRAME${NC}"
-#echo -e "${RED}$(echo "$BANNER" | sed 's/^/ /')${NC}" | lolcat -a -s 50 -d 1
-figlet -f bloody "Arli" | lolcat 
+echo -e "${RED}$(echo "$BANNER" | sed 's/^/ /')${NC}"
+#figlet -f bloody "Arli" | lolcat 
 echo -e "${YELLOW}$FRAME${NC}"
 
 # Заключительные строки, если необходимо добавить текст
-echo -e "${YELLOW}Welcome to your ARCH SERVER ${RED}non-root${YELLOW} terminal, Arli!${NC}"
+echo -e "${YELLOW}Welcome to your ${RED}TERMUX${YELLOW} terminal, Arli!${NC}"
 echo -e "${RED}Have a great day!${NC}"
 
 # Выводим разделитель
